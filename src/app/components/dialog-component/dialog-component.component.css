@@ -1,0 +1,66 @@
+.main-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 6rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+label {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.9rem 2.6rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.red-btn {
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+}
+
+.green-btn {
+  background-color: green;
+  border: 2px solid green;
+  color: white;
+}
+
+.red-btn:hover {
+  background-color: white;
+  color: red;
+  scale: 0.95;
+}
+
+.green-btn:hover {
+  background-color: white;
+  color: green;
+  scale: 0.95;
+}

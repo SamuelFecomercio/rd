@@ -1,0 +1,17 @@
+<main>
+  <app-header></app-header>
+  <div class="container-bemvindo">
+    <h1 class="bemvindoHome">Bem-vindo, {{ usuario }}!</h1>
+  </div>
+
+  <div class="container">
+    <div class="kanban">
+      <app-status-board content="Leads" [statusCards]="leadsData"></app-status-board>
+      <app-status-board content="Contratos Feitos" [statusCards]="leadsData"></app-status-board>
+      <app-status-board content="Propostas Encerradas" [statusCards]="leadsData"></app-status-board>
+      <app-status-board content="Vendidos" [statusCards]="leadsData"></app-status-board>
+      <app-status-board content="Perdas" [statusCards]="leadsData"></app-status-board>
+      <app-status-board content="Resumo" [statusCards]="leadsData"></app-status-board>
+    </div>
+  </div>
+</main>

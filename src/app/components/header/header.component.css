@@ -1,0 +1,19 @@
+header {
+  background-image: url("/assets/login/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 15vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

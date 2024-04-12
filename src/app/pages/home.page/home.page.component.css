@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 3rem;
+}
+
+.container-bemvindo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.kanban * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kanban {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .kanban {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+}
+
